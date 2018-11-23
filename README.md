@@ -39,9 +39,9 @@ sudo systemctl start service_name
 sudo systemctl restart service_name
 ```
 
-### PM2 env
-`ecosystem.config.js`
+## PM2 env
 ```js
+// ecosystem.config.js
 module.exports = {
   apps : [
       {
